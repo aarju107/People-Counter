@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+*.pt
+runs/
+node_modules/
+.expo/
+dist/
+coverage/

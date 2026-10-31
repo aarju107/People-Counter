@@ -1,0 +1,22 @@
+{
+  "build": {
+    "development": {
+      "env": { "EXPO_PUBLIC_USE_RN_FETCH": "1" },
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "env": { "EXPO_PUBLIC_USE_RN_FETCH": "1" },
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "env": { "EXPO_PUBLIC_USE_RN_FETCH": "1" }
+    }
+  }
+}

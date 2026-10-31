@@ -1,0 +1,27 @@
+# Dependencies and generated files
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+*.log
+*.tsbuildinfo
+
+# Local environment and signing credentials
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+credentials.json
+
+# Generated native projects (Expo managed workflow)
+/android/
+/ios/
+
+# OS files
+.DS_Store
+Thumbs.db

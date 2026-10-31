@@ -1,0 +1,22 @@
+# EAS uses this file instead of .gitignore when creating the build archive.
+.git/
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+*.log
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+credentials.json
+/android/
+/ios/
+.DS_Store
+Thumbs.db

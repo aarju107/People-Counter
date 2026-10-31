@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "PeopleCounter",
+    "slug": "people-counter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.peoplecounter.app"
+    },
+    "android": {
+      "package": "com.peoplecounter.app"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow PeopleCounter to choose a photo to count people.",
+          "cameraPermission": "Allow PeopleCounter to take a photo to count people.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1061b906-39ce-4ae4-92ea-e14e2678156b"
+      }
+    }
+  }
+}
